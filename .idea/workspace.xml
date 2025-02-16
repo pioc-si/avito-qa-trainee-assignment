@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4d3912b-4c85-4f04-a302-4ba59e64c4f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test-cases/createAdvWithAllFields.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/browsers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/setup_infra.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-examples/buildConfigurationTest.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-examples/getRequests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/generators/RandomData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/generators/TestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/generators/TestDataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/generators/TestDataStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/BuildType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/NewProjectDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/CheckedRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/CrudInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/UncheckedRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/checked/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/checked/CheckedBuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/checked/CheckedProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/checked/CheckedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/unchecked/UncheckedBuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/unchecked/UncheckedProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/requests/unchecked/UncheckedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/api/spec/Specifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/BrowserSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/Selectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ui/Selectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/elements/BuildConfElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/elements/BuildElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/elements/PageElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/elements/ProjectElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/BuildConfPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/StartUpPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/admin/CreateNewProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/favorites/FavoritesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/pages/favorites/ProjectsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/BaseApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/BuildConfigurationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/CreateProjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/RolesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/BaseUiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BaseUiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/CreateNewBuildConfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/CreateNewProjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/SetupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng-suites/api-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testng-suites/ui-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testng-suites/ui-suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-cases/smoke_test.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-1.17.0-openjdk-amd64!/java.base/java/lang/Override.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fTAa3HHj0oOFwHV5sugfNlQlqN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.buildConfigurationTest | #1.executor": "Run",
+    "HTTP Request.buildConfigurationTest | #2.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 0. Generate auth token.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 1. Create project.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 2. Create biuld configuration.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 2. Create build configuration.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 3. Run build.executor": "Run",
+    "HTTP Request.buildConfigurationTest | 4. Check build status.executor": "Run",
+    "HTTP Request.getRequests | #1.executor": "Run",
+    "JUnit.CreateAdvertisementTest.executor": "Run",
+    "JUnit.EditAdvertisementTest.executor": "Run",
+    "JUnit.ui in intern-testing-framework.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Shell Script.setup_infra.sh.executor": "Run",
+    "TestNG.BuildConfigurationTest.buildConfiguration255SymbolsNameTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.buildConfigurationTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.buildconfigurationTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfiguration255SymbolsNameTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfiguration256SymbolsNameTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfigurationAlreadyCreatedTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfigurationTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfigurationWithoutIdTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfigurationWithoutNameTest.executor": "Run",
+    "TestNG.BuildConfigurationTest.createBuildConfigurationWithoutProjectTest.executor": "Run",
+    "TestNG.CreateAdvWIhtoutDescriptionFieldTest.executor": "Run",
+    "TestNG.CreateAdvertisementTest.createAdvertisementWithFullFieldsTest.executor": "Run",
+    "TestNG.CreateAdvertisementTest.createAdvertisementWithoutDescriptionFieldTest.executor": "Run",
+    "TestNG.CreateNewBuildConfTest.authorizedUserShouldBeAbleCreateNewBuild.executor": "Run",
+    "TestNG.CreateNewProjectTest.authorizedUserShouldBeAbleCreateNewProject (1).executor": "Run",
+    "TestNG.CreateNewProjectTest.authorizedUserShouldBeAbleCreateNewProject.executor": "Run",
+    "TestNG.CreateNewProjectTest.authorizedUserShouldNotBeAbleCreateNewProjectWith256SymbolsName.executor": "Debug",
+    "TestNG.CreateNewProjectTest.authorizedUserShouldNotBeAbleCreateNewProjectWith80SymbolsName.executor": "Debug",
+    "TestNG.CreateProjectTest.projectNameIsAlreadyCreated.executor": "Run",
+    "TestNG.CreateProjectTest.projectNameWith0symbols.executor": "Run",
+    "TestNG.CreateProjectTest.projectNameWith255symbols.executor": "Run",
+    "TestNG.CreateProjectTest.projectNameWith256symbols.executor": "Run",
+    "TestNG.CreateProjectTest.projectNameWithoutsymbols.executor": "Run",
+    "TestNG.CreateProjectTest.projectWithoutId.executor": "Run",
+    "TestNG.EditAdvertisementTest.createAdvertisementWithFullFieldsTest.executor": "Run",
+    "TestNG.EditAdvertisementTest.editAdvertisementTest.executor": "Run",
+    "TestNG.EditAdvertisementTest.executor": "Run",
+    "TestNG.FilterSortAdvTest.executor": "Run",
+    "TestNG.FilterSortAdvTest.searchAndGoToAdvertisementTest.executor": "Run",
+    "TestNG.FirstTest.aAAdvertisementTest.executor": "Run",
+    "TestNG.FirstTest.advertisementTest.executor": "Run",
+    "TestNG.FirstTest.createAdvertisementTest.executor": "Run",
+    "TestNG.FirstTest.createAdvertisementWithFullFieldsTest.executor": "Run",
+    "TestNG.FirstTest.createAdvertisementWithoutDescriptionFieldTest.executor": "Debug",
+    "TestNG.FirstTest.createAdvertisementWithoutNameFieldTest.executor": "Run",
+    "TestNG.FirstTest.executor": "Run",
+    "TestNG.FirstTest.startPage (1).executor": "Run",
+    "TestNG.FirstTest.startPage.executor": "Run",
+    "TestNG.RolesTest.projectAdminShouldHaveRightsToCreateBuildConfigToHisProject.executor": "Run",
+    "TestNG.RolesTest.projectAdminShouldNotHaveRightsToCreateBuildConfigToAnotherProject.executor": "Run",
+    "TestNG.RolesTest.projectAdminTest.executor": "Run",
+    "TestNG.RolesTest.projectAdminTestShouldHaveRightsToCreateBuildConfigToHisProject.executor": "Run",
+    "TestNG.RolesTest.projectAdminTestShouldNotHaveRightsToCreateBuildConfigToAnotherProject.executor": "Run",
+    "TestNG.RolesTest.systemAdminTest.executor": "Run",
+    "TestNG.RolesTest.unauthorizedUser.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/pioc/Downloads/intern-testing-framework/test-cases",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-cases" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/testng-suites" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/testng-suites" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.api" />
+      <recent name="tests.ui.elements" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.FilterSortAdvTest.searchAndGoToAdvertisementTest">
+    <configuration name="ui in intern-testing-framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/tests/ui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAdvWithoutDescriptionFieldTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.CreateAdv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui.CreateAdv" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.CreateAdv.CreateAdvWithoutDescriptionFieldTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditAdvertisementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.CreateAdv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.EditAdv.EditAdvertisementTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterSortAdvTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.CreateAdv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui.CreateAdv" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.CreateAdv.FilterSortAdvTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterSortAdvTest.searchAndGoToAdvertisementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.CreateAdv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui.CreateAdv" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.CreateAdv.FilterSortAdvTest" />
+      <option name="METHOD_NAME" value="searchAndGoToAdvertisementTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.startPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intern-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.FirstTest" />
+      <option name="METHOD_NAME" value="startPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FilterSortAdvTest.searchAndGoToAdvertisementTest" />
+        <item itemvalue="TestNG.FilterSortAdvTest" />
+        <item itemvalue="TestNG.EditAdvertisementTest" />
+        <item itemvalue="TestNG.CreateAdvWithoutDescriptionFieldTest" />
+        <item itemvalue="JUnit.ui in intern-testing-framework" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4d3912b-4c85-4f04-a302-4ba59e64c4f0" name="Changes" comment="" />
+      <created>1713814754912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713814754912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="jdk.proxy2.$Proxy37" memberName="h" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

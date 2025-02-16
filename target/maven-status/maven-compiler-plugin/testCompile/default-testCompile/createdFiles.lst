@@ -1,0 +1,5 @@
+tests/ui/FilterSortAdvTest.class
+tests/ui/CreateAdv/CreateAdvWithAllFieldsTest.class
+tests/ui/CreateAdv/CreateAdvWithoutDescriptionFieldTest.class
+tests/ui/BaseUiTest.class
+tests/ui/EditAdv/EditAdvertisementTest.class

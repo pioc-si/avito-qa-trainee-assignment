@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Suite">
+    <test name="UI Test">
+        <classes>
+            <class name="tests.ui.CreateAdv.CreateAdvWithAllFieldsTest"/>
+            <class name="tests.ui.CreateAdv.CreateAdvWithoutDescriptionFieldTest"/>
+            <class name="tests.ui.EditAdv.EditAdvertisementTest"/>
+            <class name="tests.ui.FilterSortAdvTest"/>
+        </classes>
+    </test>
+</suite>

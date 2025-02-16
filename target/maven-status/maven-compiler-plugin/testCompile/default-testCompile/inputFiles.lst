@@ -1,0 +1,5 @@
+/home/pioc/Downloads/intern-testing-framework/src/test/java/tests/ui/BaseUiTest.java
+/home/pioc/Downloads/intern-testing-framework/src/test/java/tests/ui/CreateAdv/CreateAdvWithAllFieldsTest.java
+/home/pioc/Downloads/intern-testing-framework/src/test/java/tests/ui/CreateAdv/CreateAdvWithoutDescriptionFieldTest.java
+/home/pioc/Downloads/intern-testing-framework/src/test/java/tests/ui/EditAdv/EditAdvertisementTest.java
+/home/pioc/Downloads/intern-testing-framework/src/test/java/tests/ui/FilterSortAdvTest.java
