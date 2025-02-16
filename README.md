@@ -13,7 +13,7 @@
 ## Установка и настройка
 1. **Клонируйте репозиторий:**
    ```sh
-   git clone https://github.com/your-repo/avito-qa-trainee-testing-framework.git
+   git clone https://github.com/pioc-si/avito-qa-trainee-testing-framework.git
    cd avito-qa-trainee-testing-framework
 
 2. **Установите зависимости:**
